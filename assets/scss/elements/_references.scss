@@ -1,0 +1,46 @@
+.references {
+    background-color: var(--main-color);
+    color: white;
+    padding: 70px 0;
+    .sec_title {
+        margin-bottom: 90px;
+        text-align: center;
+    }
+    .brands_grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 16px;
+        .brand_item {
+            border: 1px solid #ffffff3a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+    }
+    .bottom {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+}
+.references.page_sec {
+    padding-bottom: 100px;
+    .brand_item {
+        border-color: #DEDEDE !important;
+    }
+}
+@media (max-width:991px) {
+    .references {
+        .brands_grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+@media (max-width:576px) {
+    .references {
+        .brands_grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

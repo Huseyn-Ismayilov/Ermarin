@@ -1,0 +1,13 @@
+.primary_btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 14px 60px;
+    font-size: 12px;
+    border: 1px solid var(--white-03);
+    font-family: 'Montserrat';
+    border-radius: 99px;
+    transition: .2s cubic-bezier(0.39, 0.575, 0.565, 1);
+    &:hover {
+        background-color: var(--white-hover);
+    }
+}

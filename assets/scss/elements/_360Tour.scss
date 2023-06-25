@@ -1,0 +1,20 @@
+.tour360 {
+    padding-top: 100px;
+    .sec_title {
+        margin-bottom: 40px;
+        .flex {
+            > * {
+                width: 50%;
+            }
+        }
+        .primary_btn {
+            float: right;
+            border-color: var(--green);
+        }
+    }
+    .image {
+        img {
+            width: 100%;
+        }
+    }
+}
